@@ -166,6 +166,22 @@ body {
   right: 0;
 }
 
+.card-advisor__button:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #EC1F46;
+  background: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .card-big {
   border-radius: 0px 8px 8px 0px;
 }
