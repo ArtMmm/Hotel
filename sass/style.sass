@@ -1,0 +1,98 @@
+*
+  box-sizing: border-box
+body
+  background: #F5FAFE  
+  font-family: Nunito
+  font-style: normal
+  font-weight: normal
+.container
+  max-width: 1140px
+  padding: 0px 15px
+  margin: auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+.title
+  text-align: center
+.card-big
+  width: 730px
+  height: 500px
+  background: #0A223D
+  margin-bottom: 30px
+.card
+  display: flex
+  flex-direction: column
+  width: 350px
+  height: 500px
+  &-advisor
+    display: flex
+    &__offer
+      width: 95px
+      height: 30px
+      background: #EC1F46
+      padding: 8px 12px
+      justify-content: center
+      align-items: center
+      display: flex
+      position: absolute
+      top: 26px
+      z-index: 1
+      font-family: Muli
+      font-weight: 600
+      font-size: 12px
+      color: #fff
+      border-radius: 0px 4px 4px 0px
+    &__rating
+      display: flex
+    &__title
+      margin-top: 5px
+      font-family: Muli     
+      font-weight: bold
+      font-size: 18px
+    &__description
+      margin-top: 27px
+      font-family: Muli
+      font-size: 14px
+      line-height: 160.6%
+    &__info
+      margin-top: 34px
+      font-family: Muli
+      font-size: 12px
+      & .info-user, .info-room 
+        margin-top: 11px
+    &__bottom
+      margin-top: 39px
+      display: flex
+      justify-content: space-between
+      height: 56px
+      position: relative
+    &__price
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .price-discount
+        font-family: Muli
+        font-size: 14px
+        text-decoration-line: line-through
+      .price
+        font-family: Muli 
+        font-weight: bold
+        font-size: 24px
+    &__button
+      width: 120px
+      height: 40px
+      background: #EC1F46
+      padding: 11px 26px
+      justify-content: center
+      align-items: center
+      display: flex
+      font-weight: 600
+      font-size: 14px
+      position: absolute
+      bottom: 0
+      right: 0
+      
+    
+
+@import 'card-big'
+@import 'card'

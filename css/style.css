@@ -1,0 +1,222 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #F5FAFE;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+}
+
+.card-big {
+  width: 730px;
+  height: 500px;
+  background: #0A223D;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  height: 500px;
+}
+
+.card-advisor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-advisor__offer {
+  width: 95px;
+  height: 30px;
+  background: #EC1F46;
+  padding: 8px 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 26px;
+  z-index: 1;
+  font-family: Muli;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.card-advisor__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-advisor__title {
+  margin-top: 5px;
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-advisor__description {
+  margin-top: 27px;
+  font-family: Muli;
+  font-size: 14px;
+  line-height: 160.6%;
+}
+
+.card-advisor__info {
+  margin-top: 34px;
+  font-family: Muli;
+  font-size: 12px;
+}
+
+.card-advisor__info .info-user, .card-advisor__info .info-room {
+  margin-top: 11px;
+}
+
+.card-advisor__bottom {
+  margin-top: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 56px;
+  position: relative;
+}
+
+.card-advisor__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-advisor__price .price-discount {
+  font-family: Muli;
+  font-size: 14px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.card-advisor__price .price {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-advisor__button {
+  width: 120px;
+  height: 40px;
+  background: #EC1F46;
+  padding: 11px 26px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card-big {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.card-big .left {
+  width: 366px;
+  height: 500px;
+  position: relative;
+}
+
+.card-big .right {
+  padding: 46px 21px 30px 44px;
+  color: #fff;
+}
+
+.card-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #0A223D;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.card-small .card-advisor {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 350px;
+  height: 500px;
+}
+
+.card-small .card-advisor .bottom {
+  padding: 30px 21px 25px 32px;
+}
+
+.card-small .card-advisor__title {
+  margin: 0;
+}
+
+.card-small .card-advisor__info {
+  margin-top: 23px;
+}
+
+.card-small .card-advisor__bottom {
+  margin-top: 23px;
+}
+/*# sourceMappingURL=style.css.map */
